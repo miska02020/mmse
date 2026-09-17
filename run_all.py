@@ -25,7 +25,7 @@ from urllib.parse import urlparse
 
 
 MODELS_CSV = "models.csv"
-WORKER_SCRIPT = "other_batch.py"
+WORKER_SCRIPT = "run_img_batch.py.py"
 LOG_DIR = "logs"
 
 # print 在多线程里不是原子的，加个锁避免行内混杂
